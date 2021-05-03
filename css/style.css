@@ -5,54 +5,122 @@ html,body{
   overflow-x: hidden;
 }
 
-
 /* fonts */
 body{
-	font-family: Lato, "Helvetica Neue", Arial, sans-serif;
-	color: #333;
+    font-family: 'Merriweather', serif;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .lead-description{
-	font-family: Georgia, serif;
+    font-family: 'Montserrat', 'sans-serif';
+}
+.section-header{
+    font-family: 'Montserrat', 'sans-serif'; 
 }
 
+/* links */
+a:link {color: #a178d5;}
+a:visited {color: #ab9cbd;}
+a:hover {color: #6c3fa3;}
 
-/* CSS for hero image, either background photo or background video */
+/* Hero image, either background photo or background video */
 .hero{
-  background-image: url("../assets/sample-images/desk.jpg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  overflow: hidden;
-  color: #ffffff;
-  position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    color: #ffffff;
+    position: relative;
 }
+
 .hero header{
-  background-color:rgba(0,0,0,0.75);
+    background-color:rgba(0,0,0,0.75);
 
 }
+
 .hero header > *{
-  position: relative;
-  z-index: 10;
-}
-.hero video{
-  position: absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  height: 100vh;
-  width: auto;
-  z-index: 1 !important;
-}
-@media (min-aspect-ratio:16/9){
-  .hero video{
-    width: 100vw;
-    height: auto;
-  }
+    position: relative;
+    z-index: 10;
 }
 
+.hero video{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height: 100vh;
+    width: auto;
+    z-index: 1 !important;
+}
+
+@media (min-aspect-ratio:16/9){
+    .hero video{
+        width: 100vw;
+        height: auto;
+    }
+}
+
+.hero-text{
+    background-color: rgba(0,0,0,0.6); 
+    padding: 20px; 
+}
+
+/* Section headers and spacers */
+.section-header{
+    background-color: #d1c4f3;  
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+}
+
+.spacer{
+    background-color: white; 
+    padding: 25px; 
+}
+
+/* Main sections */
+.section-light{
+    background-color: white; 
+    color: #170B26;
+}
+
+.section-dark{
+    background-color: #170B26;
+    color: #ebe6f1;
+}
+
+.section-q1{
+    background-color: #b6d2f7; 
+    color: black; 
+}
+
+.section-q2{
+    background-color: #c4c4f3;
+    color: black; 
+}
+
+.section-q3{
+    background-color: #d1c4f3;
+    color: black;
+}
+
+.dark-box{
+    background-color: #170B26;
+    color: #ebe6f1;
+    border-radius: 25px; 
+    padding: 20px; 
+    margin: 5px; 
+}
+
+.video-holder{
+    display: inline-flex;
+    margin: auto;
+    width: 100%; 
+    height: auto; 
+}
 
 /* helper */
 .vh-200{ height: 200vh;}
@@ -62,25 +130,72 @@ h1, h2, h3, h4, h5, h6 {
 .vh-600{ height: 600vh;}
 
 
+/* Specific text elements */
+#caption-dark{
+    color: #ebe6f1;
+    font-style: italic;
+    font-size: 80%; 
+}
+
+#caption-light{
+    color: #5a4b6d;
+    font-style: italic; 
+    font-size: 80%;
+}
 
 /* Sticky graphic */
 .scroll-graphic{
-  background-color:#000;
-  z-index: -2;
+    background-color:#000;
+    z-index: -2;
 }
 
 .image-holder{
-  background-image: url(../assets/sample-images/map-1.jpg);
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  background-attachment: fixed;
-  background-color: #000000;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+    background-image: url(../assets/sample-images/map-1.jpg);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-attachment: fixed;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
+/* hidden state inference flip cards */
+.flipper{
+    height: 0; 
+    padding-bottom: 100%; 
+    position: relative; 
+    perspective: 800px; 
+}
+
+.flipper-card {
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    transform-style: preserve-3d; 
+    transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+}
+
+.flipper-front, .flipper-back {
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    backface-visibility: hidden; 
+    background: #fff; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.flipper-back {
+    background: #fff; 
+    transform: rotateY(180deg); 
+}
+
+.flipper-card.flipper-is-flipped {
+    transform: rotateY(180deg);
+}

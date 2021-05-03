@@ -1,309 +1,610 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-
-    <!-- begin twitter summary card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="">
-    <meta name="twitter:site" content="">
-    <meta name="twitter:url" content="">
-    <meta name="twitter:image" content="">
-    <meta name="twitter:description" content="">
-
-    <!-- Social sharing meta -->
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="">
-    <meta property="og:site_name" content="">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
-    <meta property="og:description" content="">
-
-    <!-- Schema.org structured data -->
-    <script data-schema="NewsArticle" type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "NewsArticle",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "/* seo.url */"
-      },
-      "headline": "/* seo.seo_title */",
-      "image": {
-        "@type": "ImageObject",
-        "url": "/* seo.image */"
-      },
-      "dateCreated": "/* seo.date */",
-    "datePublished": "/* seo.date + 'T' + seo.time */",
-      "author": {
-        "@type": "Person",
-        "name": "/* seo.author */"
-      },
-      "description": "/* seo.description */"
-    }
-    </script>
-
-
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    
-    
-    
-    <div class="hero" role="banner">
-      <header class="justify-content-center text-center font-weight-bold d-flex flex-column align-items-center vh-100">
-        <h1 class="display-4 font-weight-bold">Your Project Name Here</h1>
-        <p class="lead">Basic info about your project</p>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
         
-        <!-- Uncomment below for background video -->
-        
-<!--         <video src="assets/sample-images/video.mp4" muted playsinline autoplay width="100%" height="100%"></video>-->
-        
-      </header>
-    </div>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300;1,700&family=Montserrat:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+        <!-- begin twitter summary card -->
+        <!-- sets preview image and content when sharing page on Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Representing the Unobservable">
+        <meta name="twitter:description" content="How do we learn how the world works, when the rules are hidden and ever-changing?">
+
+        <!-- Social sharing meta -->
+        <!-- sets preview content for all other social media (eg Facebook) --> 
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="Representing the Unobservable">
+
+        <!-- Schema.org structured data -->
+        <!-- helps Google search results (search engine optimization) --> 
+        <script data-schema="NewsArticle" type="application/ld+json">
+            {
+            "@context": "http://schema.org",
+            "@type": "NewsArticle",
+            "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "/* seo.url */"
+            },
+            "headline": "/* seo.seo_title */",
+            "image": {
+            "@type": "ImageObject",
+            "url": "/* seo.image */"
+            },
+            "dateCreated": "/* seo.date */",
+            "datePublished": "/* seo.date + 'T' + seo.time */",
+            "author": {
+            "@type": "Person",
+            "name": "/* seo.author */"
+            },
+            "description": "/* seo.description */"
+            }
+        </script>
+
+
+        <title>J220 Final Project</title>
+    </head>
     
-    
-    
-    <section class="container-fluid" role="main">
-      
-      
-      <div class="row justify-content-center mt-5">
-        <div class="col-12 col-sm-8 lead-description">
-          <p class="h3 text-center">Headline of your project would go here, or not.</p>
+    <body>
+                
+        <div class="hero scroll-graphic" role="banner">
+            <header class="justify-content-center text-center font-weight-bold d-flex flex-column align-items-center vh-100">
+                <div class="hero-text">
+                    <h1 class="display-4 font-weight-bold">Representing the Unobservable</h1>
+                
+                    <h3 class="lead">How do we learn how the world works,<br>when the rules are hidden and ever-changing?</h3>
+                
+                    <h6>By Celia Ford</h6>
+                </div>
+                
+                <video src="assets/videos/plexon-dark-loop.mp4" muted playsinline autoplay loop width="100%" height="100%"></video>
+
+            </header>
         </div>
-      </div>
-      
-      
 
-      <div class="row justify-content-center mt-5">
-        <div class="col-12 col-sm-8 col-md-6">
-          <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</p>
+        <section class="container-fluid section-dark py-5" role="main1">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <p>Victor stares at a glowing gray monitor, fiddling with a screw poking out from the side of his chair. He chews on his juice straw, waiting.</p>
 
-          <p>I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+                    <p>Suddenly, two square pictures pop on the screen. He knows the drill &mdash; his eyes dart towards a picture of a boat, and he wills his gaze to make something happen.</p>
 
-          <p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath of that universal love which bears and sustains us, as it floats around us in an eternity of bliss; and then, my friend, when darkness overspreads my eyes, and heaven and earth seem to dwell in my soul and absorb its power, like the form of a beloved mistress, then I often think with longing, Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God!</p>
-        </div><!-- close columns -->
-      </div><!-- close row -->
-      
-      
-      <!-- full screen image with slight margins due to container-fluid -->
-      <img src="assets/sample-images/desk-1.jpg" class="img-fluid" alt="Picture of a desk">
-      
-      
-      
-      <div class="row justify-content-center mt-5">
-        <div class="col-12 col-sm-8 col-md-6">
-          <p>O my friend -- but it is too much for my strength -- I sink under the weight of the splendour of these visions! A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                    <p>Like magic, the other picture disappears. A few drops of sweet apple juice, precisely measured, surge through a maze of tubing. Victor, who hasn’t had anything to drink yet today, slurps down his reward.</p>
 
-          <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</p>
-
-          <p>I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
-
-          <p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath of that universal love which bears and sustains us, as it floats around us in an eternity of bliss; and then, my friend, when darkness overspreads my eyes, and heaven and earth seem to dwell in my soul and absorb its power, like the form of a beloved mistress, then I often think with longing, Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God!</p>
-        </div><!-- close columns -->
-      </div><!-- close row -->
-      
-      
-      
-      <!-- two side-by-side images, each column 6 -->
-      <div class="row justify-content-center">
-        <div class="col-6">
-          <img src="assets/sample-images/desk-1.jpg" class="img-fluid" alt="Picture of a desk">
-        </div>
-        <div class="col-6">
-          <img src="assets/sample-images/desk-1.jpg" class="img-fluid" alt="Picture of a desk">
-        </div>
-      </div>
-      
-      
-      
-      <div class="row justify-content-center mt-5">
-        <div class="col-12 col-sm-8 col-md-6">
-          <p>O my friend -- but it is too much for my strength -- I sink under the weight of the splendour of these visions! A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-
-          <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</p>
-
-          <p>I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
-          
-          
-          <!-- Example of a grid of photos -->
-          <div class="row justify-content-center gx-2 my-3">
-            <div class="col-4 my-1">
-              <img src="assets/sample-images/desk-1.jpg" class="img-fluid" alt="desk">
+                    <p>“Something about that boat,” he thinks, “must be good.”</p>
+                </div>
             </div>
-            <div class="col-4 my-1">
-              <img src="assets/sample-images/desk-2.jpg" class="img-fluid" alt="desk">
+        </section>
+
+        <section class="container-fluid section-light py-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-md-6"> 
+                    <video src="assets/videos/eyetracker-loop.mp4" muted playsinline autoplay loop width="100%" height="100%"></video>
+                </div>
             </div>
-            <div class="col-4 my-1">
-              <img src="assets/sample-images/desk-3.jpg" class="img-fluid" alt="desk">
+            
+            <div class="row justify-content-center mt-3">
+                <div class="col-12 col-sm-8 col-md-6">      
+                    <p>Victor is a rhesus macaque living with a small colony of monkeys in the Li Ka Shing Center, a UC Berkeley building dedicated to biomedical research. With his help, neuroscientists can ask fundamental questions about how we think and behave.</p>
+
+                    <p>I am a fourth-year graduate student in the Helen Wills Neuroscience Institute’s <a href="https://live-helen-wills-neuroscience-institute.pantheon.berkeley.edu/phd-program/">Neuroscience PhD Program</a>, working with <a href="http://www.wallislab.org/">Dr. Joni Wallis</a> (and Victor) to study the neural mechanisms of <b>hidden state inference</b>.</p>
+                </div>
             </div>
-            <div class="col-4 my-1">
-              <img src="assets/sample-images/desk-4.jpg" class="img-fluid" alt="desk">
+        </section>
+
+        <section class="container-fluid section-light" role="flipcards1">
+            <div class="row justify-content-center mb-5">
+                <div class="col-12 col-sm-7 col-lg-5">
+                    <img src="assets/images/hidden-state-inference-header.jpg" class="img-fluid" alt="what's hidden state inference? click the circles below">
+                </div>
             </div>
-            <div class="col-4 my-1">
-              <img src="assets/sample-images/desk-5.jpg" class="img-fluid" alt="desk">
+            
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="flipper">
+                        <div class="flipper-card">
+                            <div class="flipper-front">
+                                <img src="assets/images/hidden-card-front.png" class="img-fluid" alt="hidden">
+                            </div>
+                            <div class="flipper-back">
+                                <img src="assets/images/hidden-card-back.png" class="img-fluid" alt="unobservable by any of the 5 senses">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="flipper">
+                        <div class="flipper-card">
+                            <div class="flipper-front">
+                                <img src="assets/images/state-card-front.png" class="img-fluid" alt="state">
+                            </div>
+                            <div class="flipper-back">
+                                <img src="assets/images/state-card-back.png" class="img-fluid" alt="landmarks and rules that characterize the world as it currently appears">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="flipper">
+                        <div class="flipper-card">
+                            <div class="flipper-front">
+                                <img src="assets/images/inference-card-front.png" class="img-fluid" alt="inference">
+                            </div>
+                            <div class="flipper-back">
+                                <img src="assets/images/inference-card-back.png" class="img-fluid" alt="a guess, given some evidence">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-4 my-1">
-              <img src="assets/sample-images/desk-6.jpg" class="img-fluid" alt="desk">
+        </section>
+
+        <section class="container-fluid section-light py-5" role="text">
+            <div class="row justify-content-center">
+                <div class="col-12 sm-8 col-md-6">
+                    <p>In other words, it's the process of <b><span style="background-color:#fee2f0">drawing conclusions about the unobservable properties of the world, given a set of observations.</span></b></p>
+                </div>
             </div>
-          </div>
+        </section>
 
-          <p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath of that universal love which bears and sustains us, as it floats around us in an eternity of bliss; and then, my friend, when darkness overspreads my eyes, and heaven and earth seem to dwell in my soul and absorb its power, like the form of a beloved mistress, then I often think with longing, Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God!</p>
+        <section class="container-fluid section-dark py-5" role="text">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <p>We figure out context through observation and adapt our behavior to what we think will best serve us.</p>
+                    
+                    <p>How does the brain represent context? How do we adapt to changes in context?</p>
 
-          <!-- Carousel example -->
-          <div id="carouselExampleIndicators" class="carousel slide my-4" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                    <p>Questions like this feel unanswerable: how can a neuroscientist possibly learn anything about the mind, this abstract machine that somehow emerges from the physical neurons and chemicals and electrical impulses it’s made of?</p>
+                </div>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assets/sample-images/map-1.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/sample-images/map-2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/sample-images/map-1.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/sample-images/map-2.jpg" class="d-block w-100" alt="...">
-              </div>
+        </section>
+        
+        <section class="container-fluid section-light pt-5" role="text">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <p>The often-unsatisfying answer: we shave it down.</p>
+                    
+                    <p>We design experiments, little laboratory video games, that allow us to engineer the subject’s experience and see how they respond.</p><br>
+
+                    <p><b>Reversal learning</b>, or learning the <i>opposite</i> of something you originally learned, is a pared-down version of hidden state inference.</p> 
+                    
+                    <p>Luckily, <b>there’s a game for that.</b></p>
+                    
+                    <p><i>Play the video below to walk through how it works!</i></p>
+                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-          
-          <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</p>
-
-          <p>I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
-          
-          <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</p>
-
-          <p>I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
-        </div><!-- close columns -->
-      </div><!-- close row -->
-      
-      
-      <!-- Picture slightly bigger than text well -->
-      <div class="row justify-content-center">
-        <div class="col-8">
-          <img src="assets/sample-images/desk-1.jpg" class="img-fluid" alt="Picture of a desk">
-        </div>
-      </div>
-
-      
-      <div class="row justify-content-center mt-5">
-        <div class="col-12 col-sm-8 col-md-6">
-          <p>O my friend -- but it is too much for my strength -- I sink under the weight of the splendour of these visions!</p>
-
-          <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-          
-          <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</p>
-
-          <p>I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
-
-          <p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath of that universal love which bears and sustains us, as it floats around us in an eternity of bliss; and then, my friend, when darkness overspreads my eyes, and heaven and earth seem to dwell in my soul and absorb its power, like the form of a beloved mistress, then I often think with longing, Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God!</p>
-        </div>
-      </div>
-    </section><!--close container -->
-      
-      
-    
-    <!-- Example of a Graphics Scrolling Section -->
-    <div class="scroll-graphic container-fluid position-relative">
-      
-        <div class="image-holder"></div>
+        </section>
+            
+        <section class="container-fluid section-light pb-5" role="video">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <video src="assets/videos/reversal-task-v2.mp4" muted playsinline controls width="100%" height="100%"></video>
+                </div>
+            </div>
+        </section>
         
-        <div class="row justify-content-center d-flex flex-column align-items-center">
-          <div class="col-10 col-sm-6 col-md-4">
-              <p class="lead bg-light story" data-image="assets/sample-images/map-3.jpg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </div>
-        
-        <div class="row d-flex flex-column justify-content-center align-items-center">
-          <div class="col-10 col-sm-6 col-md-4">
-            <p class="lead bg-light story" data-image="assets/sample-images/map-2.jpg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </div>
+        <section class="container-fluid section-dark py-5" role="text">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <p>With a little practice, you get better at spotting when the rules switched.</p>
+                    
+                    <p>Monkeys, including Victor, also get better at catching rule switches over time (we get a lot of our brainpower from our primate ancestors, after all).</p>
+                    
+                    <p>As a human experimenter, I can keep track of several variables over the course of a game session, and use that information to better understand the player's strategy.</p>
+                    
+                    <p>Every day that Victor played this game in the lab, I kept track of his performance &mdash; this allowed me to compare his <i>behavior</i> to his <i>brain activity</i>.</p>
+                    
+                    <p>Let's take a look.</p>
+                </div>
+            </div>
+        </section>
 
-        <div class="row d-flex justify-content-center flex-column align-items-center">
-          <div class="col-10 col-sm-6 col-md-4">
-            <p class="lead bg-light story" data-image="assets/sample-images/map-1.jpg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </div>
+        <section class="container-fluid section-light py-5" role="text">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-md-6"> 
+                    <p>These variables are stored as <i><b>vectors</b></i>, or columns of numbers.</p>
+                    
+                    <p>Each row represents a <i><b>trial</b></i>, or one round of the game.</p>
+                    
+                    <p>Some example trials are highlighted below &mdash; if you know the information stored in these vectors, you can work backwards to recreate all the main events of that trial. Specifically, we're looking at<p>
+                    <ul>
+                        <li><i><b>task state</b></i> (i.e., currently-applicable rule)</li>
+                        <li>what <i><b>choice</b></i> was made</li>
+                        <li>whether that choice was <i><b>rewarded</b></i></li>
+                        <li>whether that choice was <i><b>correct</b></i>, or <i>most likely</i> to be rewarded</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row justify-content-center my-3">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <img src="assets/images/bhv-vectors.jpg" class="img-fluid" alt="illustration of data vectors, or columns of numbers representing experimental variables. the columns are titled 'state','choice','reward',and 'correct'. the first row is highlighted in blue, captioned 'in state 1, he chose picture 2 and received no reward. this choice was unlikely to be rewarded, so he was incorrect.' the fifth row is highlighted in pink, captioned 'in state 1, he chose picture 1 and received reward. this choice was likely to be rewarded, so he was correct'">
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid section-dark py-5" role="text">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <p>For every trial Victor completes, I reproduce the decision at hand, the choice he made, and the consequence he faced.</p>
+                    
+                    <p>This is enough information to calculate how likely Victor was to choose the best, most-rewarding option on a given trial, and how that likelihood evolved throughout his game session.</p>
+                </div>
+            </div>     
+        </section>
         
-        <div class="row justify-content-center align-items-center align-items-sm-end d-flex flex-column">
-          <div class="col-10 col-sm-6 col-md-4 story me-sm-5" data-image="assets/sample-images/map-3.jpg">
-            <p class="lead bg-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </div>
-        
-        <div class="row justify-content-center align-items-center align-items-sm-start d-flex flex-column">
-          <div class="col-10 offset-sm-1 col-sm-6 col-md-4">
-            <p class="lead bg-light story" data-image="assets/sample-images/map-2.jpg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </div>
+        <section class="container-fluid spacer" role="spacer">
+        </section>
         
         
-    </div><!-- close container -->
-    
-    
-    
-    <footer class="my-5 text-center">
-      <p>Website by your name.</p>
-      <nav class="socialmedia text-center">
-        <a href="#" title="Twitter"><img src="assets/social-media-icons/twitter.svg" alt="Social Media Icon" class="d-inline p-2" width="40" height="auto"></a>
-        <a href="#" title="Facebook"><img src="assets/social-media-icons/facebook.svg" alt="Social Media Icon" class="d-inline p-2" width="40" height="auto"></a>
-        <a href="#" title="Instagram"><img src="assets/social-media-icons/instagram.svg" alt="Social Media Icon" class="d-inline p-2" width="40" height="auto"></a>
-        <a href="#" title="YouTube"><img src="assets/social-media-icons/youtube.svg" alt="Social Media Icon" class="d-inline p-2" width="40" height="auto"></a>
-      </nav>    
-    </footer>
-    
-    
-    
-    
-    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery.scrollstory.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="js/d3-5.9.7.min.js"></script>
-    <script>
-      jQuery(document).ready(function($){
+        <section class="container-fluid section-header text-center" role="section-header">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <h1>Can he adapt his behavior <br>to changing rules?</h1>
+                </div>
+            </div>
+        </section>
 
+        <section class="container-fluid section-light py-5" role="results">
+            
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <h4>The short answer: <b>yes.</b></h4><br>
+                    
+                    <p>Take a look at the plot below:</p>
+                    
+                    <p>The <b>y axis (vertical)</b> shows how well he was doing on a given trial &mdash; the higher a point is, the more accurate his performance was at that point in time.</p>
+                    
+                    <p>The <b>x axis (horizontal)</b> represents time &mdash; points further to the right were more trials away from the rule switch, which happened at <b>trial zero</b>, the dashed line.</p>
+                </div>
+            </div>
         
+            <div class="row justify-content-center mt-5">
+                <div class="col-6 sm-6 col-md-4">
+                    <img src="assets/images/reversal-example.gif" class="img-fluid" alt="example scatterplot of changing performance accuracy across trials">
+                </div>
+            </div>
 
-        //ignore these four lines of code.
-        const spread_of_items = 200; // how spread apart items are.
-        const speed = 250; //speed of transition in milliseconds
-        const num_of_items = $(".scroll-graphic").children().length;
-        $(".scroll-graphic").children().height(spread_of_items + 'vh');
-        $(".image-holder").height(((num_of_items - 1) * spread_of_items) + 'vh' );
+            <div class="row justify-content-center my-5">
+                <div class="col-12 col-sm-6 col-md-6">
+                    <p><b><span style="background-color:#fee2f0">His performance improves until the rules change.</span></b></p>
+                    
+                    <p>Right after the reversal trial, his accuracy dips <i>below chance</i>, meaning that he's choosing the least-rewarding option <i>more often</i> than he would if he were making completely random choices.</p>
+                    
+                    <p>After a brief blip, the learning curve shoots back up, indicating a speedy recovery.</p>
+                    
+                    <p>Below, we see that <b><span style="background-color:#fee2f0">this pattern repeats itself</span></b> every time a switch happens.</p>     
+                </div>
+            </div>
+            
+            <div class="row justify-content-center my-5">
+                <div class="col-6 sm-6 col-md-4">
+                    <img src="assets/images/block-example.gif" class="img-fluid" alt="example line plot of changing performance accuracy across trials, for multiple blocks">
+                </div>
+            </div>
+            
+            <div class="row justify-content-center mt-5">
+                <div class="col-12 col-sm-6 col-md-6">
+                    <h4><b>How does he bounce back so quickly?</b></h4>
+                </div>
+            </div>
+        </section>
         
+        <section class="container-fluid section-dark pt-5 pb-2">
+            <div class="row justify-content-center">
+                <div class="col-12 sm-8 col-md-6">
+                    <p>His brain must have been representing the two <i>hidden states</i> shaping the game:<br>a state where one option is more rewarding than the other, and a second state where those relationships are reversed.</p>
+            
+                    <p>This raises several questions.</p>
+                </div>
+            </div>
+        </section>
         
-        $(".scroll-graphic").scrollStory({
-          triggerOffset: $(window).height() * .75 //how many pixels from top of screen to trigger animation for each box
-        });
+        <section class="container-fluid spacer"></section>
         
-        $(".scroll-graphic").on('itemfocus', (e,d) =>{
-          $(".image-holder").stop().animate({opacity:0}, speed, function(done){
-            $(this).css('background-image', 'url(' + d.el.data('image') + ')');
-            $(this).animate({opacity:1}, speed);
-          })
-        }); 
+        <section class="container-fluid section-q1 py-3">
+            <div class="row justify-content-center">
+                <div class="col-12 sm-8 col-md-6">
+                    <h4 id="question1"><i><b>Where</b></i> in the brain are these representions stored?</h4>
+                </div>
+            </div>
+        </section>
+        
+        <section class="container-fluid section-q2 py-3">
+            <div class="row justify-content-center">
+                <div class="col-12 sm-8 col-md-6">
+                     <h4 id="question2"><i><b>When</b> do those representations shift, if at all?</i></h4>
+                </div>
+            </div>
+        </section>
+        
+        <section class="container-fluid section-q3 py-3">
+            <div class="row justify-content-center">
+                <div class="col-12 sm-8 col-md-6">
+                      <h4 id="question3"><i><b>How</b> does that shift ultimately drive his behavior</i></h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid spacer"></section>
+
+        <section class="container-fluid section-dark py-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <p>Neuroscientists think that two parts of the brain work together to make this happen: the <b>orbitofrontal cortex</b> (or OFC) and the <b>hippocampus</b>.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="container-fluid section-light py-5" role="flipcards2">
+            <div class="row justify-content-center text-center">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <p><i>Click each circle to learn more about each brain region.</i></p>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="flipper">
+                        <div class="flipper-card">
+                            <div class="flipper-front">
+                                <img src="assets/images/OFC-front.png" class="img-fluid" alt="orbitofrontal cortex">
+                            </div>
+                            <div class="flipper-back">
+                                <img src="assets/images/OFC-back.png" class="img-fluid" alt="OFC is part of the prefrontal cortex (right behind the eyes), and is connected to many brain regions, especially those processing sensory information, emotion, and memory. OFC is important for learning and decision-making, and may represent task state.">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="flipper">
+                        <div class="flipper-card">
+                            <div class="flipper-front">
+                                <img src="assets/images/hippocampus-front.png" class="img-fluid" alt="hippocampus">
+                            </div>
+                            <div class="flipper-back">
+                                <img src="assets/images/hippocampus-back.png" class="img-fluid" alt="hippocampus is deep in the temporal lobe (right behind the ears). It is part of the limbic system, which controls motivation, mood, and memory. It is important for spatial navigation, memory formation, and understanding relationships, and may also represent task state.">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid section-light pt-2 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <p>Neurons are brain cells that communicate with each other via electrical and chemical signals. By systematically varying the rate and timing of their individual electrical pulses, neurons can store and transmit information as a network.</p>
+
+                    <p>Do neurons in Victor's OFC and hippocampus care about the rules of his game? If so, what can that tell us about how the brain flexibly represents and infers context?</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-header text-center">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <h1>How do we know what a<br>monkey's neurons are doing,<br>while he's doing other things?</h1>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid section-light py-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <p>By carefully lowing ultrathin electrodes into Victor's brain, we can record an electrical symphony of brain activity while Victor works.</p>
+
+                    <p>To get a clear snapshot of the activity of a whole chunk of brain, like the hippocampus, we have to record from multiple neurons at the same time &mdash;<br>ideally, as many as possible.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid section-light py-2">
+            <div class="row justify-content-center">
+                    <div class="col-12 col-sm-6 col-md-3 dark-box d-flex flex-column justify-content-center align-content-center">
+                        <p>Each electrode, crafted by <a href="https://plexon.com/products/plexon-v-probe/#76f7834tg">Plexon</a>, has 16 platinum/iridium recording sites, each of which picks up signal from nearby neurons (and anything else making electrical noise).</p>
+                    </div>
+
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img src="assets/images/plexon-probe.png" class="img-fluid" alt="Plexon V-Probe next to a hand for reference; the probe is roughly palm-length">
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid section-light py-2">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <video src="assets/videos/chamber-loop.mp4" muted playsinline autoplay loop width="100%" height="100%"></video>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3 dark-box d-flex flex-column justify-content-center align-content-center">
+                    <p>We labeled MRI pictures of Victor's brain and used that stack of 2D images to reconstruct a 3D model of his orbitofrontal cortex, his hippocampus, and his skull.</p>
+
+                    <p>To create a pathway for our electrodes, we surgically removed a small piece of skull and covered the gap with a resealable chamber, like a top hat.</p>
+                </div>
+            </div>
+        </section>
 
 
+        <section class="container-fluid section-light py-2">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-3 dark-box d-flex flex-column justify-content-center align-content-center">
+                    <p>In preparation for each experiment day, I design and 3D print a unique attachment to screw onto the chamber. Its towers serve as tracks for each electrode, precisely guiding them towards their brain targets.</p>
+                </div>
 
-      });
-    </script>
-  </body>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <video src="assets/videos/onshape-loop.mp4" muted playsinline autoplay loop width="100%" height="100%"></video>
+                </div>
+            </div>
+        </section>   
+
+
+        <section class="container-fluid section-light py-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <p>After breakfast on experiment day, Victor patiently waits while I count the turns of a tiny screwdriver, lowering electrodes into his brain one third of a millimeter at a time.</p>
+
+                    <p>The brain lacks pain receptors, so while the ordeal is physically painless, it's awfully boring. So, he watches Netflix (he's currently catching up on <i>Our Planet</i> while I listen for the crackling, irregular popping sounds that distinguish a firing neuron from electrical noise.</p>
+                </div>
+            </div>
+        </section>
+            
+        <section class="container-fluid section-dark py-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-4 pt-2">
+                    <h4>This is the sound of electrical noise:</h4>
+                </div>
+                <div class="col-12 col-sm-3 col-md-2">
+                    <audio controls><source src="assets/audio/noise.mp3">Your browser does not support the audio tag</audio>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center pt-3">
+                <div class="col-12 col-sm-6 col-md-4 pt-2">
+                    <h4>This is the sound of a neuron firing:</h4>
+                </div>
+                <div class="col-12 col-sm-3 col-md-2">
+                    <audio controls><source src="assets/audio/neuron.mp3">Your browser does not support the audio tag</audio>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid section-light py-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <p>After a couple hours of gaming (and drinking a large beaker's worth of apple juice), Victor's workday winds down &mdash; and mine truly begins. I raise the electrodes out of his brain as carefully as we lowered them, clean up, and get him back home.</p>
+                    
+                    <p>Meanwhile, I download about 115 gigabytes of data from our recording system to an external hard drive, and prepare for analysis.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-header text-center py-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <h1>How do OFC and hippocampus <br>work together to support <br>hidden state inference?</h1>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <h4>More importantly, <i>how do we make sense of all this data,</i> and organize it so the results are interpretable?</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid section-light">
+            <div class="row justify-content-center mt-5">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <img src="assets/images/visme-hq/step1.jpg" class="img-fluid" alt="step 1: organize neuronal data in a 3D matrix">
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <img src="assets/images/visme-hq/step2.jpg" class="img-fluid" alt="step 2: split data by task state">
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <img src="assets/images/visme-hq/step3.jpg" class="img-fluid" alt="step 3: test whether each neuron's activity is the same or different across task states">
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-12 col-sm-8 col-md-7">
+                    <img src="assets/images/visme-hq/non-sensitive-neurons.jpg" class="img-fluid" alt="Only 14% of neurons in hippocampus did not significantly alter their activity in response to task state. In other words, their firing rates were roughly the same whether Victor thought he was in State 1 or State 2">
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-12 col-sm-8 col-md-7">
+                    <img src="assets/images/visme-hq/state-sensitive-neurons.jpg" class="img-fluid" alt="Meanwhile, 86% of neurons in hippocampus did alter their activity in response to changes in task state. This may be how Victor's brain tells him that he's in State 1 or State 2.">
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <img src="assets/images/visme-hq/conclusion.png" class="img-fluid" alt="Looking at both OFC and hippocampus, 86% of recorded neurons overall were sensitive to task state. This means the brain represents Context. We use context to guide decision-making.">
+                </div>
+            </div>
+
+            <section class="spacer"></section>
+        </section>
+
+        <section class="section-header text-center">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <h1>What's next?</h1><br>
+                    <h4>Science is a long and messy process, <br>and we still have a long way to go.</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid section-light py-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-md-6">
+                    <p>Neuroscientists have had their eyes on OFC And hippocampus for some years now, hoping that this pair of brain regions holds the key to understanding how we internally represent our external world.</p>
+
+                    <p>So far, my results support this theory. Neurons in Victor's hippocampus are teaming up with neurons in his OFC to collectively respond to changes in the rules of his games. These neurons probably send this information to other parts of his brain, like the motor cortex, that ultimately drive his physical actions.</p>
+
+                    <p>We're one baby step closer to understanding something fundamental about how we learn to learn. And luckily, there's still plenty of mystery left to solve. </p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="my-5 text-center">
+            <p>Website by Celia Ford, J220 Final Project (May 4, 2021).</p>
+
+            <nav class="socialmedia text-center">
+                <a href="https://twitter.com/cogcelia" title="Twitter"><img src="assets/social-media-icons/twitter.svg" alt="Social Media Icon" class="d-inline p-2" width="40" height="auto"></a>
+            </nav>    
+
+            <nav class="socialmedia text-center">
+                <a href="https://www.linkedin.com/in/celia-ford/" title="LinkedIn"><img src="assets/social-media-icons/linkedin.svg" alt="Social Media Icon" class="d-inline p-2" width="40" height="auto"></a>
+            </nav>    
+        </footer>
+
+
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.scrollstory.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="js/d3-5.9.7.min.js"></script>
+        <script>
+            jQuery(document).ready(function($){
+                
+                //toggles flipcard from front to back (or vice versa) on click
+                $('.flipper').on('click', function () {
+                    $(this).find('.flipper-card').toggleClass('flipper-is-flipped');
+                });
+
+                //ignore these four lines of code.
+                const spread_of_items = 200; // how spread apart items are.
+                const speed = 250; //speed of transition in milliseconds
+                const num_of_items = $(".scroll-graphic").children().length;
+                $(".scroll-graphic").children().height(spread_of_items + 'vh');
+                $(".image-holder").height(((num_of_items - 1) * spread_of_items) + 'vh' );
+                
+                //set how many pixels from top of screen to trigger animation for each box
+                $(".scroll-graphic").scrollStory({
+                    triggerOffset: $(window).height() * .75 
+                });
+
+                //function that determines scroll speed from hero image to main page
+                $(".scroll-graphic").on('itemfocus', (e,d) =>{
+                    $(".image-holder").stop().animate({opacity:0}, speed, function(done){
+                        $(this).css('background-image', 'url(' + d.el.data('image') + ')');
+                        $(this).animate({opacity:1}, speed);
+                    })
+                });               
+            });
+        </script>
+    </body>
 </html>
